@@ -66,6 +66,7 @@ procedure TForm1.LIMPARClick(Sender: TObject);
 begin
       DOLAR.Clear();
       REAL.Clear();
+      MSG.caption := '';  //ao mandar limpar a label vai receber null
 end;
 
 end.
