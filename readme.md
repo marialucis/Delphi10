@@ -70,7 +70,7 @@ Interface : A definição do formulário, assim como de outros componentes e tip
    * IF/ELSE
 
 EX: 
-if Dolar.text = '' then
+    if Dolar.text = '' then
         begin
               SHOWMESSAGE('Digite o valor em Dolar');
         end
