@@ -19,16 +19,17 @@ type
 
 var
   Form1: TForm1;
-  var1 : string;   //variavel
-
+  //var1 : string;   //variavel
+   var2 : integer;
 implementation
 
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-      var1 := 'Teste';
-      edit1.Text := var1;       //atribuindo valor da variavel a caixa de texto
+      //var1 := 'Teste';
+      var2 := 100;
+      edit1.text  := inttostr(var2);       //atribuindo valor da variavel a caixa de texto
 
 end;
 
