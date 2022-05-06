@@ -17,7 +17,7 @@ object Form1: TForm1
     Left = 64
     Top = 37
     Width = 39
-    Height = 13
+    Height = 16
     Caption = 'DOLAR'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -39,6 +39,12 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
   end
+  object MSG: TLabel
+    Left = 32
+    Top = 104
+    Width = 3
+    Height = 13
+  end
   object DOLAR: TEdit
     Left = 24
     Top = 56
@@ -54,7 +60,7 @@ object Form1: TForm1
     TabOrder = 1
   end
   object CONVERTER: TButton
-    Left = 120
+    Left = 40
     Top = 224
     Width = 97
     Height = 25
@@ -69,7 +75,7 @@ object Form1: TForm1
     OnClick = CONVERTERClick
   end
   object LIMPAR: TButton
-    Left = 248
+    Left = 184
     Top = 224
     Width = 105
     Height = 25
@@ -82,5 +88,21 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 3
     OnClick = LIMPARClick
+  end
+  object COMPRAR: TButton
+    Left = 336
+    Top = 224
+    Width = 97
+    Height = 25
+    Caption = 'COMPRAR'
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clMenuText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = COMPRARClick
   end
 end
