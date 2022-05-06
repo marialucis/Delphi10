@@ -12,10 +12,14 @@ type
     REAL: TEdit;
     Label1: TLabel;
     Label2: TLabel;
-    Button1: TButton;
+    CONVERTER: TButton;
     LIMPAR: TButton;
-    procedure Button1Click(Sender: TObject);
+    COMPRAR: TButton;
+    MSG: TLabel;
+    procedure CONVERTERClick(Sender: TObject);
     procedure LIMPARClick(Sender: TObject);
+    procedure COMPRARClick(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -25,12 +29,23 @@ type
 var
   Form1: TForm1;
   varreal : real;
+  varnome: string;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm1.Button1Click(Sender: TObject);
+//ACAO DO BOTAO COMPRAR
+
+procedure TForm1.COMPRARClick(Sender: TObject);
+begin
+      varnome := INPUTBOX('NOME','DIGITE SEU NOME','');       //ENTRADA NO USUARIO
+      MSG.Caption := 'PARABÉNS ' +  varnome + ' , VOCE COMPROU ' + DOLAR.Text +  ' DOLAR(ES) ';  //CONCATENANDO
+end;
+
+
+//ACAO DO BOTAO CONVERTER
+procedure TForm1.CONVERTERClick(Sender: TObject);
 begin
 
       if Dolar.text = '' then
@@ -40,15 +55,18 @@ begin
 
       else
         begin
-        varreal := STRTOFLOAT(DOLAR.Text) * 3.9;
+        COMPRAR.ENABLED := TRUE;
+        varreal := STRTOFLOAT(DOLAR.Text) * 5.03;
          REAL.Text := FLOATTOSTR(varreal);
         end;
 
   end;
+//ACAO DO BOTAO LIMPA OS CAMPOS
 procedure TForm1.LIMPARClick(Sender: TObject);
 begin
-      DOLAR.Clear();       //LIMPA OS CAMPOS
+      DOLAR.Clear();
       REAL.Clear();
+      MSG.caption := '';  //ao mandar limpar a label vai receber null
 end;
 
 end.

@@ -40,7 +40,16 @@ implementation
 procedure TForm1.COMPRARClick(Sender: TObject);
 begin
       varnome := INPUTBOX('NOME','DIGITE SEU NOME','');       //ENTRADA NO USUARIO
-      MSG.Caption := 'PARABÉNS ' +  varnome + ' , VOCE COMPROU ' + DOLAR.Text +  ' DOLAR(ES) ';  //CONCATENANDO
+
+       if (varnome <> '') AND (DOLAR.Text <> '0') THEN
+       BEGIN
+         MSG.Caption := 'PARABÉNS ' +  varnome + ' , VOCE COMPROU ' + DOLAR.Text +  ' DOLAR(ES) ';  //CONCATENANDO
+         END
+
+       else
+       BEGIN
+           SHOWMESSAGE('Falta infomormar o nome ou Dolar tem que ser maior que 0');
+         END;
 end;
 
 

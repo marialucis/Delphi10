@@ -89,5 +89,4 @@ EX:
 
   * SHOWMESSAGE(''); --Exibe uma mensagem na tela  
   * Clear(); --Limpa o campo do objeto edit
-  * INPUTBOX(
-  * )
+  * INPUTBOX('','',''); --Entrada de usuario
