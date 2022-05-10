@@ -55,7 +55,6 @@ object DataModule1: TDataModule1
     Top = 32
     object SQLDataSet1ID: TIntegerField
       FieldName = 'ID'
-      KeyFields = 'ID'
     end
     object SQLDataSet1NOME: TStringField
       FieldName = 'NOME'
@@ -71,7 +70,7 @@ object DataModule1: TDataModule1
     end
   end
   object DataSetProvider1: TDataSetProvider
-    DataSet = SQLDataSet1
+    DataSet = ClientDataSet1
     Left = 40
     Top = 120
   end

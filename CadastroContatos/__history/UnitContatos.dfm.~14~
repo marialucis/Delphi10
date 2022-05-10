@@ -55,8 +55,8 @@ object Form1: TForm1
   end
   object DBEdit2: TDBEdit
     Left = 40
-    Top = 176
-    Width = 1304
+    Top = 179
+    Width = 465
     Height = 21
     DataField = 'NOME'
     DataSource = DataSource1
@@ -73,8 +73,8 @@ object Form1: TForm1
   end
   object DBEdit4: TDBEdit
     Left = 40
-    Top = 256
-    Width = 1304
+    Top = 259
+    Width = 465
     Height = 21
     DataField = 'EMAIL'
     DataSource = DataSource1
@@ -87,6 +87,8 @@ object Form1: TForm1
     Height = 21
     DataField = 'ID'
     DataSource = DataSource1
+    Enabled = False
+    MaxLength = 1
     TabOrder = 4
   end
   object DataSource1: TDataSource
