@@ -68,6 +68,10 @@ object DataModule1: TDataModule1
       FieldName = 'EMAIL'
       Size = 100
     end
+    object SQLDataSet1OBS: TStringField
+      FieldName = 'OBS'
+      Size = 250
+    end
   end
   object DataSetProvider1: TDataSetProvider
     DataSet = SQLDataSet1
@@ -95,6 +99,10 @@ object DataModule1: TDataModule1
     object ClientDataSet1EMAIL: TStringField
       FieldName = 'EMAIL'
       Size = 100
+    end
+    object ClientDataSet1OBS: TStringField
+      FieldName = 'OBS'
+      Size = 250
     end
   end
 end

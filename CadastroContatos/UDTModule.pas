@@ -20,6 +20,8 @@ type
     ClientDataSet1NOME: TStringField;
     ClientDataSet1TELEFONE: TStringField;
     ClientDataSet1EMAIL: TStringField;
+    SQLDataSet1OBS: TStringField;
+    ClientDataSet1OBS: TStringField;
   private
     { Private declarations }
   public

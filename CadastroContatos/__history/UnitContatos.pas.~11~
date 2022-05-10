@@ -1,0 +1,36 @@
+unit UnitContatos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Mask,
+  Vcl.DBCtrls, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TFrmContatos = class(TForm)
+    LBLID: TLabel;
+    DBID: TDBEdit;
+    DataSource1: TDataSource;
+    LBLNOME: TLabel;
+    DBNAME: TDBEdit;
+    LBLTELEFONE: TLabel;
+    DBTELEFONE: TDBEdit;
+    LBLEMAIL: TLabel;
+    DBEMAIL: TDBEdit;
+    DBNavigator1: TDBNavigator;
+    DBGrid1: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmContatos: TFrmContatos;
+
+implementation
+
+{$R *.dfm}
+
+end.

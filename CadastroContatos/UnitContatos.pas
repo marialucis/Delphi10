@@ -8,18 +8,25 @@ uses
   Vcl.DBCtrls, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids;
 
 type
-  TForm1 = class(TForm)
-    Label1: TLabel;
-    DBEdit1: TDBEdit;
-    DataSource1: TDataSource;
-    Label2: TLabel;
-    DBEdit2: TDBEdit;
-    Label3: TLabel;
-    DBEdit3: TDBEdit;
-    Label4: TLabel;
-    DBEdit4: TDBEdit;
+  TFrmContatos = class(TForm)
+    LBLID: TLabel;
+    DBID: TDBEdit;
+    LBLNOME: TLabel;
+    DBNAME: TDBEdit;
+    LBLTELEFONE: TLabel;
+    DBTELEFONE: TDBEdit;
+    LBLEMAIL: TLabel;
+    DBEMAIL: TDBEdit;
     DBNavigator1: TDBNavigator;
     DBGrid1: TDBGrid;
+    BTNSAIR: TButton;
+    Label1: TLabel;
+    DataSource1: TDataSource;
+    DBMemo1: TDBMemo;
+    procedure BTNSAIRClick(Sender: TObject);
+    procedure DBGrid1DblClick(Sender: TObject);
+   
+
   private
     { Private declarations }
   public
@@ -27,10 +34,26 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FrmContatos: TFrmContatos;
 
 implementation
 
 {$R *.dfm}
+
+procedure TFrmContatos.BTNSAIRClick(Sender: TObject);     //acao botao sair
+begin
+      FrmContatos.Close;
+end;
+
+
+
+procedure TFrmContatos.DBGrid1DblClick(Sender: TObject);    //evento OnDBClick para infomrar que a alteração é apenas pelo navegador
+begin
+    Showmessage('Alterações somente pelo navegador');
+end;
+
+
+
+
 
 end.

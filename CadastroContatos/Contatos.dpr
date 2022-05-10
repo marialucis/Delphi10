@@ -2,7 +2,7 @@ program Contatos;
 
 uses
   Vcl.Forms,
-  UnitContatos in 'UnitContatos.pas' {Form1},
+  UnitContatos in 'UnitContatos.pas' {FrmContatos},
   UDTModule in 'UDTModule.pas' {DataModule1: TDataModule};
 
 {$R *.res}
@@ -10,7 +10,7 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmContatos, FrmContatos);
   Application.CreateForm(TDataModule1, DataModule1);
   Application.Run;
 end.

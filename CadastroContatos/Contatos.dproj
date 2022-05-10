@@ -99,7 +99,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="UnitContatos.pas">
-            <Form>Form1</Form>
+            <Form>FrmContatos</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UDTModule.pas">
