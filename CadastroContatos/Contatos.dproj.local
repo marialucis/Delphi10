@@ -2,12 +2,12 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/05/06 21:43:23.000.867,=D:\Repositorio_git\10_Delphi10\Unit1.pas</Transaction>
-    <Transaction>2022/05/06 22:19:50.000.168,D:\Repositorio_git\10_Delphi10\Unit1.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos\UnitContatos.dfm</Transaction>
-    <Transaction>2022/05/06 22:19:50.000.168,D:\Repositorio_git\10_Delphi10\Unit1.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos\UnitContatos.pas</Transaction>
-    <Transaction>2022/05/06 22:20:02.000.345,D:\Repositorio_git\10_Delphi10\Project1.dproj=D:\Repositorio_git\10_Delphi10\CadastroContatos\Contatos.dproj</Transaction>
+    <Transaction>2022/05/06 22:19:50.000.168,D:\Repositorio_git\10_Delphi10\CadastroContatos\UnitContatos.dfm=D:\Repositorio_git\10_Delphi10\Unit1.dfm</Transaction>
+    <Transaction>2022/05/06 22:19:50.000.168,D:\Repositorio_git\10_Delphi10\CadastroContatos\UnitContatos.pas=D:\Repositorio_git\10_Delphi10\Unit1.pas</Transaction>
+    <Transaction>2022/05/06 22:20:02.000.345,D:\Repositorio_git\10_Delphi10\CadastroContatos\Contatos.dproj=D:\Repositorio_git\10_Delphi10\Project1.dproj</Transaction>
     <Transaction>2022/05/06 22:21:48.000.187,=D:\Repositorio_git\10_Delphi10\CadastroContatos\Unit1.pas</Transaction>
     <Transaction>2022/05/06 22:35:42.000.090,=D:\Repositorio_git\10_Delphi10\CadastroContatos\Unit1.pas</Transaction>
-    <Transaction>2022/05/06 23:42:11.000.019,D:\Repositorio_git\10_Delphi10\CadastroContatos\Unit1.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos\UDTModule.dfm</Transaction>
-    <Transaction>2022/05/06 23:42:11.000.019,D:\Repositorio_git\10_Delphi10\CadastroContatos\Unit1.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos\UDTModule.pas</Transaction>
+    <Transaction>2022/05/06 23:42:11.000.019,D:\Repositorio_git\10_Delphi10\CadastroContatos\UDTModule.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos\Unit1.dfm</Transaction>
+    <Transaction>2022/05/06 23:42:11.000.019,D:\Repositorio_git\10_Delphi10\CadastroContatos\UDTModule.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

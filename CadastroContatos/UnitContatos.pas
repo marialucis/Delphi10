@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Mask,
-  Vcl.DBCtrls, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids;
+  Vcl.DBCtrls, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids, Vcl.Buttons;
 
 type
   TFrmContatos = class(TForm)
@@ -23,8 +23,11 @@ type
     Label1: TLabel;
     DataSource1: TDataSource;
     DBMemo1: TDBMemo;
+    SpeedButton1: TSpeedButton;
+    Procura: TEdit;
     procedure BTNSAIRClick(Sender: TObject);
     procedure DBGrid1DblClick(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
    
 
   private
@@ -55,5 +58,10 @@ end;
 
 
 
+
+procedure TFrmContatos.SpeedButton1Click(Sender: TObject);
+begin
+   //SQLDataSet1.FindKey([DBID.Text]);
+end;
 
 end.
