@@ -5,7 +5,7 @@ object FrmContatos: TFrmContatos
   BorderIcons = [biMinimize, biMaximize, biHelp]
   Caption = 'CADASTRO DE CONTATOS'
   ClientHeight = 658
-  ClientWidth = 804
+  ClientWidth = 875
   Color = clMenu
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,23 +18,23 @@ object FrmContatos: TFrmContatos
   PixelsPerInch = 96
   TextHeight = 13
   object LBLID: TLabel
-    Left = 8
-    Top = 96
+    Left = 48
+    Top = 88
     Width = 11
     Height = 13
     Caption = 'ID'
     FocusControl = DBID
   end
   object LBLNOME: TLabel
-    Left = 96
-    Top = 96
+    Left = 104
+    Top = 88
     Width = 29
     Height = 13
     Caption = 'NOME'
     FocusControl = DBNAME
   end
   object LBLTELEFONE: TLabel
-    Left = 8
+    Left = 48
     Top = 152
     Width = 50
     Height = 13
@@ -42,7 +42,7 @@ object FrmContatos: TFrmContatos
     FocusControl = DBTELEFONE
   end
   object LBLEMAIL: TLabel
-    Left = 200
+    Left = 201
     Top = 152
     Width = 30
     Height = 13
@@ -50,14 +50,14 @@ object FrmContatos: TFrmContatos
     FocusControl = DBEMAIL
   end
   object Label1: TLabel
-    Left = 8
-    Top = 216
+    Left = 48
+    Top = 208
     Width = 20
     Height = 13
     Caption = 'OBS'
   end
   object DBID: TDBEdit
-    Left = 8
+    Left = 48
     Top = 115
     Width = 50
     Height = 21
@@ -67,16 +67,16 @@ object FrmContatos: TFrmContatos
     TabOrder = 1
   end
   object DBNAME: TDBEdit
-    Left = 98
+    Left = 104
     Top = 115
-    Width = 687
+    Width = 721
     Height = 21
     DataField = 'NOME'
     DataSource = DataSource1
     TabOrder = 2
   end
   object DBTELEFONE: TDBEdit
-    Left = 8
+    Left = 48
     Top = 171
     Width = 147
     Height = 21
@@ -85,16 +85,16 @@ object FrmContatos: TFrmContatos
     TabOrder = 3
   end
   object DBEMAIL: TDBEdit
-    Left = 176
+    Left = 201
     Top = 171
-    Width = 583
+    Width = 624
     Height = 21
     DataField = 'EMAIL'
     DataSource = DataSource1
     TabOrder = 4
   end
   object DBNavigator1: TDBNavigator
-    Left = 243
+    Left = 283
     Top = 32
     Width = 264
     Height = 25
@@ -104,9 +104,9 @@ object FrmContatos: TFrmContatos
   end
   object DBGrid1: TDBGrid
     Left = -1
-    Top = 384
-    Width = 804
-    Height = 273
+    Top = 360
+    Width = 882
+    Height = 297
     DataSource = DataSource1
     ReadOnly = True
     TabOrder = 5
@@ -118,7 +118,7 @@ object FrmContatos: TFrmContatos
     OnDblClick = DBGrid1DblClick
   end
   object BTNSAIR: TButton
-    Left = 726
+    Left = 821
     Top = 8
     Width = 46
     Height = 25
@@ -133,9 +133,9 @@ object FrmContatos: TFrmContatos
     OnClick = BTNSAIRClick
   end
   object DBMemo1: TDBMemo
-    Left = 8
-    Top = 235
-    Width = 185
+    Left = 48
+    Top = 227
+    Width = 345
     Height = 89
     DataField = 'OBS'
     DataSource = DataSource1
@@ -143,7 +143,7 @@ object FrmContatos: TFrmContatos
   end
   object DataSource1: TDataSource
     DataSet = DataModule1.ClientDataSet1
-    Left = 776
+    Left = 816
     Top = 248
   end
 end

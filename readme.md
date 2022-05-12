@@ -94,3 +94,8 @@ EX:
 
 ## PROPRIEDADES
 ReadOnly
+
+
+## Funcao
+  GetCurrentDir- retorna o caminho onde a aplicação está rodando em qualquer instalação.
+  
