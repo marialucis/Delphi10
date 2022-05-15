@@ -5,7 +5,7 @@ object FrmContatos: TFrmContatos
   BorderIcons = [biMinimize, biMaximize, biHelp]
   Caption = 'CADASTRO DE CONTATOS'
   ClientHeight = 658
-  ClientWidth = 875
+  ClientWidth = 962
   Color = clMenu
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -20,7 +20,7 @@ object FrmContatos: TFrmContatos
   object LBLID: TLabel
     Left = 48
     Top = 88
-    Width = 20
+    Width = 11
     Height = 13
     Caption = 'ID'
     FocusControl = DBID
@@ -57,8 +57,8 @@ object FrmContatos: TFrmContatos
     Caption = 'OBS'
   end
   object SpeedButton1: TSpeedButton
-    Left = 720
-    Top = 56
+    Left = 815
+    Top = 52
     Width = 73
     Height = 25
     Glyph.Data = {
@@ -169,7 +169,7 @@ object FrmContatos: TFrmContatos
   object DBGrid1: TDBGrid
     Left = -1
     Top = 360
-    Width = 882
+    Width = 962
     Height = 297
     DataSource = DataSource1
     ReadOnly = True
@@ -206,10 +206,10 @@ object FrmContatos: TFrmContatos
     TabOrder = 7
   end
   object Procura: TEdit
-    Left = 799
-    Top = 56
-    Width = 121
-    Height = 21
+    Left = 719
+    Top = 52
+    Width = 90
+    Height = 25
     TabOrder = 8
     Text = 'txt_PROCURA'
   end

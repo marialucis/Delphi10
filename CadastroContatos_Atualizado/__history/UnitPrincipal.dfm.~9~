@@ -1,0 +1,35 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Principal'
+  ClientHeight = 436
+  ClientWidth = 668
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = Menu
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Menu: TMainMenu
+    Left = 624
+    Top = 8
+    object menuClientes: TMenuItem
+      Caption = 'Clientes'
+      OnClick = menuClientesClick
+    end
+    object menuUsuarios: TMenuItem
+      Caption = 'Usuarios'
+    end
+    object menuRelatorios: TMenuItem
+      Caption = 'Relatorios'
+    end
+    object menuOutros: TMenuItem
+      Caption = 'Outros'
+    end
+  end
+end

@@ -1,0 +1,113 @@
+object frm_Usuarios: Tfrm_Usuarios
+  Left = 0
+  Top = 0
+  BorderIcons = [biMinimize, biMaximize]
+  Caption = 'Usuarios'
+  ClientHeight = 499
+  ClientWidth = 859
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 40
+    Top = 88
+    Width = 11
+    Height = 13
+    Caption = 'ID'
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel
+    Left = 40
+    Top = 128
+    Width = 31
+    Height = 13
+    Caption = 'LOGIN'
+    FocusControl = DBEdit2
+  end
+  object Label3: TLabel
+    Left = 40
+    Top = 168
+    Width = 33
+    Height = 13
+    Caption = 'SENHA'
+    FocusControl = DBEdit3
+  end
+  object DBEdit1: TDBEdit
+    Left = 40
+    Top = 107
+    Width = 134
+    Height = 21
+    DataField = 'ID'
+    DataSource = DataSourceLogin
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 40
+    Top = 141
+    Width = 568
+    Height = 21
+    DataField = 'LOGIN'
+    DataSource = DataSourceLogin
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 40
+    Top = 184
+    Width = 147
+    Height = 21
+    DataField = 'SENHA'
+    DataSource = DataSourceLogin
+    TabOrder = 2
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 272
+    Top = 24
+    Width = 270
+    Height = 41
+    DataSource = DataSourceLogin
+    VisibleButtons = [nbPrior, nbNext, nbInsert, nbDelete, nbEdit, nbPost, nbCancel, nbRefresh, nbApplyUpdates, nbCancelUpdates]
+    TabOrder = 3
+  end
+  object GroupBox1: TGroupBox
+    Left = 744
+    Top = 360
+    Width = 185
+    Height = 105
+    Caption = 'GroupBox1'
+    TabOrder = 4
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 328
+    Width = 857
+    Height = 169
+    Color = clSkyBlue
+    DataSource = DataSourceLogin
+    TabOrder = 5
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object btnSAIRUsu: TButton
+    Left = 792
+    Top = 8
+    Width = 59
+    Height = 25
+    Caption = 'SAIR'
+    TabOrder = 6
+    OnClick = btnSAIRUsuClick
+  end
+  object DataSourceLogin: TDataSource
+    DataSet = dmLogin.ClientDataSet1
+    Left = 832
+    Top = 480
+  end
+end

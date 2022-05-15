@@ -1,12 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/05/12 22:53:18.979,=D:\Repositorio_git\10_Delphi10\Unit1.pas</Transaction>
-    <Transaction>2022/05/12 22:54:04.637,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitPrincipal.dfm=D:\Repositorio_git\10_Delphi10\Unit1.dfm</Transaction>
-    <Transaction>2022/05/12 22:54:04.637,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitPrincipal.pas=D:\Repositorio_git\10_Delphi10\Unit1.pas</Transaction>
-    <Transaction>2022/05/12 22:55:00.245,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\login.dproj=D:\Repositorio_git\10_Delphi10\Project1.dproj</Transaction>
-    <Transaction>2022/05/12 22:55:21.536,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
-    <Transaction>2022/05/12 22:56:24.000,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitLogin.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
-    <Transaction>2022/05/12 22:56:24.000,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitLogin.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.dfm</Transaction>
+	<Transactions>
+    <Transaction>2022/05/12 22:53:18.000.979,=D:\Repositorio_git\10_Delphi10\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 22:54:04.000.637,D:\Repositorio_git\10_Delphi10\Unit1.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitPrincipal.dfm</Transaction>
+    <Transaction>2022/05/12 22:54:04.000.637,D:\Repositorio_git\10_Delphi10\Unit1.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitPrincipal.pas</Transaction>
+    <Transaction>2022/05/12 22:55:00.000.245,D:\Repositorio_git\10_Delphi10\Project1.dproj=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\login.dproj</Transaction>
+    <Transaction>2022/05/12 22:55:21.000.536,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 22:56:24.000.000,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitLogin.dfm</Transaction>
+    <Transaction>2022/05/12 22:56:24.000.000,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitLogin.pas</Transaction>
+    <Transaction>2022/05/12 23:16:14.000.710,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 23:18:46.000.345,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 23:35:59.000.579,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 23:53:07.000.664,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitdmLogin.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 23:53:07.000.664,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitdmLogin.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.dfm</Transaction>
+    <Transaction>2022/05/15 17:03:40.000.812,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/15 17:04:22.000.260,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitClientes.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/15 17:04:22.000.260,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitClientes.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.dfm</Transaction>
+    <Transaction>2022/05/15 18:34:50.000.322,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/15 18:38:54.000.823,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\dtmClientes.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/15 18:38:54.000.823,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\dtmClientes.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.dfm</Transaction>
+    <Transaction>2022/05/15 18:46:18.000.689,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\dtmClientes.pas=</Transaction>
+    <Transaction>2022/05/15 19:29:32.296,=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
+    <Transaction>2022/05/15 19:31:35.039,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitUsuarios.dfm=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.dfm</Transaction>
+    <Transaction>2022/05/15 19:31:35.039,D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\UnitUsuarios.pas=D:\Repositorio_git\10_Delphi10\CadastroContatos_Atualizado\Unit1.pas</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UnitdmLogin.pas"/>
+    <File Path="UnitdmLogin.dfm"/>
+    <File Path="UnitLogin.pas"/>
+    <File Path="UnitLogin.dfm"/>
+    <File Path="UnitPrincipal.pas"/>
+    <File Path="UnitPrincipal.dfm"/>
+    <File Path="UnitClientes.pas"/>
+    <File Path="UnitClientes.dfm"/>
+    <File Path="UnitUsuarios.pas"/>
+    <File Path="UnitUsuarios.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>

@@ -1,0 +1,36 @@
+unit UnitdmLogin;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXMySQL, Data.FMTBcd, Data.DB,
+  Datasnap.Provider, Datasnap.DBClient, Data.SqlExpr;
+
+type
+  TdmLogin = class(TDataModule)
+    SQLConnection1: TSQLConnection;
+    SQLDataSet1: TSQLDataSet;
+    ClientDataSet1: TClientDataSet;
+    DataSetProvider1: TDataSetProvider;
+    ClientDataSet1ID: TIntegerField;
+    ClientDataSet1LOGIN: TStringField;
+    ClientDataSet1SENHA: TStringField;
+    SQLDataSet1ID: TIntegerField;
+    SQLDataSet1LOGIN: TStringField;
+    SQLDataSet1SENHA: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmLogin: TdmLogin;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

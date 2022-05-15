@@ -46,6 +46,7 @@ object DataModule1: TDataModule1
     Top = 32
   end
   object SQLDataSet1: TSQLDataSet
+    Active = True
     CommandText = 'SELECT * FROM  TBContatos;'
     MaxBlobSize = -1
     Params = <>

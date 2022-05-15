@@ -108,6 +108,19 @@
             <Form>frm_login</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UnitdmLogin.pas">
+            <Form>dmLogin</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="UnitClientes.pas">
+            <Form>frmClientes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitUsuarios.pas">
+            <Form>frm_Usuarios</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

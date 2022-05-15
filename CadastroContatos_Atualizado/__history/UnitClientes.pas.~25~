@@ -1,0 +1,37 @@
+unit UnitClientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Mask,
+  Vcl.DBCtrls, Vcl.ExtCtrls, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TfrmClientes = class(TForm)
+    btnSAIR: TButton;
+    procedure btnSAIRClick(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmClientes: TfrmClientes;
+
+implementation
+
+{$R *.dfm}
+
+uses UnitPrincipal;
+
+procedure TfrmClientes.btnSAIRClick(Sender: TObject);
+begin
+      close;
+      frmPrincipal.show;    //quando sair chama o form principal novamente
+
+end;
+
+end.

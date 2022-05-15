@@ -93,9 +93,14 @@ EX:
 
 
 ## PROPRIEDADES
-ReadOnly
+ReadOnly-bloqueia para alteração
+
+
+## EVENTOS
+OnDblClick
 
 
 ## Funcao
   GetCurrentDir- retorna o caminho onde a aplicação está rodando em qualquer instalação.
+  
   
