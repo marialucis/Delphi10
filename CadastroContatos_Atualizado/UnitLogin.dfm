@@ -1,6 +1,7 @@
 object frm_login: Tfrm_login
   Left = 0
   Top = 0
+  ActiveControl = ComboBox1
   Caption = 'Login'
   ClientHeight = 356
   ClientWidth = 244
@@ -748,15 +749,6 @@ object frm_login: Tfrm_login
     TabOrder = 1
     OnClick = btnCancelarClick
   end
-  object DBEditNome: TDBEdit
-    Left = 80
-    Top = 170
-    Width = 121
-    Height = 21
-    DataField = 'LOGIN'
-    DataSource = DataSourceLogin
-    TabOrder = 2
-  end
   object DBEditSenha: TDBEdit
     Left = 80
     Top = 213
@@ -765,7 +757,15 @@ object frm_login: Tfrm_login
     DataField = 'SENHA'
     DataSource = DataSourceLogin
     PasswordChar = '#'
+    TabOrder = 2
+  end
+  object ComboBox1: TComboBox
+    Left = 74
+    Top = 170
+    Width = 145
+    Height = 21
     TabOrder = 3
+    Text = 'ComboBox1'
   end
   object DataSourceLogin: TDataSource
     DataSet = dmLogin.SQLDataSetUsers

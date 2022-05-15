@@ -15,7 +15,7 @@ type
     btnEntrar: TButton;
     btnCancelar: TButton;
     DBEditNome: TDBEdit;
-    DataSource1: TDataSource;
+    DataSourceLogin: TDataSource;
     DBEditSenha: TDBEdit;
     procedure btnCancelarClick(Sender: TObject);
     procedure btnEntrarClick(Sender: TObject);
@@ -42,7 +42,11 @@ end;
 procedure Tfrm_login.btnEntrarClick(Sender: TObject);
 begin
        //sem validacao do banco no momento, chamar o formPrincipal
-      frmPrincipal.show;
+
+        frmPrincipal.show;
+
+
+
 end;
 
 end.

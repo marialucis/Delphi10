@@ -5,6 +5,7 @@ object dmLogin: TdmLogin
   object SQLConnection1: TSQLConnection
     ConnectionName = 'MySQLConnection'
     DriverName = 'MySQL'
+    LoginPrompt = False
     Params.Strings = (
       'DriverUnit=Data.DBXMySQL'
       

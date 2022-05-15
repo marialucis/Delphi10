@@ -14,9 +14,9 @@ type
     lblSenha: TLabel;
     btnEntrar: TButton;
     btnCancelar: TButton;
-    DBEditNome: TDBEdit;
     DataSourceLogin: TDataSource;
     DBEditSenha: TDBEdit;
+    ComboBox1: TComboBox;
     procedure btnCancelarClick(Sender: TObject);
     procedure btnEntrarClick(Sender: TObject);
   private

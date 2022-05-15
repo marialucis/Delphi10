@@ -2,8 +2,8 @@ object frm_login: Tfrm_login
   Left = 0
   Top = 0
   Caption = 'Login'
-  ClientHeight = 390
-  ClientWidth = 305
+  ClientHeight = 356
+  ClientWidth = 244
   Color = clSkyBlue
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -720,7 +720,7 @@ object frm_login: Tfrm_login
   end
   object btnEntrar: TButton
     Left = 24
-    Top = 280
+    Top = 296
     Width = 75
     Height = 25
     Caption = 'Entrar'
@@ -734,8 +734,8 @@ object frm_login: Tfrm_login
     OnClick = btnEntrarClick
   end
   object btnCancelar: TButton
-    Left = 152
-    Top = 280
+    Left = 144
+    Top = 296
     Width = 75
     Height = 25
     Caption = 'Cancelar'
@@ -754,22 +754,22 @@ object frm_login: Tfrm_login
     Width = 121
     Height = 21
     DataField = 'LOGIN'
-    DataSource = DataSource1
+    DataSource = DataSourceLogin
     TabOrder = 2
   end
   object DBEditSenha: TDBEdit
-    Left = 84
+    Left = 80
     Top = 213
     Width = 121
     Height = 21
     DataField = 'SENHA'
-    DataSource = DataSource1
+    DataSource = DataSourceLogin
     PasswordChar = '#'
     TabOrder = 3
   end
-  object DataSource1: TDataSource
-    DataSet = dmLogin.SQLDataSet1
-    Left = 240
-    Top = 344
+  object DataSourceLogin: TDataSource
+    DataSet = dmLogin.SQLDataSetUsers
+    Left = 160
+    Top = 360
   end
 end

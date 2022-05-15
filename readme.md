@@ -94,7 +94,7 @@ EX:
 
 ## PROPRIEDADES
 ReadOnly-bloqueia para alteração
-
+LoginPrompt = false - Não solicita o login e senha toda vez que executar a aplicação
 
 ## EVENTOS
 OnDblClick

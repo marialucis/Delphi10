@@ -17,6 +17,7 @@ type
     Label3: TLabel;
     DBEdit3: TDBEdit;
     DBNavigator1: TDBNavigator;
+    GroupBox1: TGroupBox;
     DBGrid1: TDBGrid;
     btnSAIRUsu: TButton;
     procedure btnSAIRUsuClick(Sender: TObject);

@@ -1,7 +1,7 @@
 object dmLogin: TdmLogin
   OldCreateOrder = False
   Height = 275
-  Width = 427
+  Width = 740
   object SQLConnection1: TSQLConnection
     ConnectionName = 'MySQLConnection'
     DriverName = 'MySQL'
@@ -98,7 +98,7 @@ object dmLogin: TdmLogin
     Params = <>
     SQLConnection = SQLConnection1
     Left = 144
-    Top = 120
+    Top = 128
     object SQLDataSetClientesID: TIntegerField
       FieldName = 'ID'
     end
@@ -124,12 +124,32 @@ object dmLogin: TdmLogin
     Aggregates = <>
     Params = <>
     ProviderName = 'DataSetProvider2'
-    Left = 224
-    Top = 120
+    Left = 240
+    Top = 128
+    object ClientDataSet2ID: TIntegerField
+      FieldName = 'ID'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+    end
+    object ClientDataSet2NOME: TStringField
+      FieldName = 'NOME'
+      Size = 100
+    end
+    object ClientDataSet2TELEFONE: TStringField
+      FieldName = 'TELEFONE'
+      Size = 11
+    end
+    object ClientDataSet2EMAIL: TStringField
+      FieldName = 'EMAIL'
+      Size = 100
+    end
+    object ClientDataSet2OBS: TStringField
+      FieldName = 'OBS'
+      Size = 255
+    end
   end
   object DataSetProvider2: TDataSetProvider
     DataSet = SQLDataSetClientes
-    Left = 312
-    Top = 120
+    Left = 336
+    Top = 128
   end
 end
