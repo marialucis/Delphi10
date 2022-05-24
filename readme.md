@@ -90,6 +90,7 @@ EX:
   * SHOWMESSAGE(''); --Exibe uma mensagem na tela  
   * Clear(); --Limpa o campo do objeto edit
   * INPUTBOX('','',''); --Entrada de usuario
+  * CLOSE; --Fecha o form;
 
 
 ## PROPRIEDADES
